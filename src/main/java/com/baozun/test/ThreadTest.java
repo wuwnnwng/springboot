@@ -16,7 +16,7 @@ public class ThreadTest  implements Runnable{
   @Override
   public void run() {
     synchronized (this){
-      System.out.println(Thread.currentThread().getName()+"当前count:"+count++);
+      System.out.println(Thread.currentThread().getName()+" 当前count:"+count++);
     }
   }
 }
