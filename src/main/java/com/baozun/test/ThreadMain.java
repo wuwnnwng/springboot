@@ -1,7 +1,8 @@
 package com.baozun.test;
 
-import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @ProjectName: springboot
@@ -18,9 +19,11 @@ public class ThreadMain {
 
 //    ExecutorService executorService = Executors.newFixedThreadPool(5);
 //    ExecutorService executorService = Executors.newCachedThreadPool();
-    ExecutorService executorService = Executors.newSingleThreadExecutor();
+//    ExecutorService executorService = Executors.newSingleThreadExecutor();
+    ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(5);
     for (int i = 0; i < 10; i++) {
-      executorService.execute(tTest);
+//      scheduledExecutorService.schedule(tTest,10, TimeUnit.SECONDS);
+      scheduledExecutorService.scheduleAtFixedRate(tTest, 1, 3, TimeUnit.SECONDS);
     }
   /*  Thread th1 = new Thread(tTest, "T1");
     Thread th2 = new Thread(tTest, "T2");
