@@ -9,5 +9,12 @@ package com.baozun.test;
  * @Date: 2020/6/6 9:25
  * @Version: 1.0
  */
-public class ThreadTest {
+public class ThreadTest  implements Runnable{
+
+  int count = 0;
+
+  @Override
+  public void run() {
+    System.out.println(Thread.currentThread().getName()+"当前count:"+count++);
+  }
 }
