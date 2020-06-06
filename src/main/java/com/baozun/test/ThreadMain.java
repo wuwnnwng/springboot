@@ -13,8 +13,8 @@ public class ThreadMain {
   public static void main(String[] args) {
     ThreadTest tTest = new ThreadTest();
 
-    Thread th1 = new Thread(new ThreadTest(), "T1");
-    Thread th2 = new Thread(new ThreadTest(), "T2");
+    Thread th1 = new Thread(tTest, "T1");
+    Thread th2 = new Thread(tTest, "T2");
     th1.start();
     th2.start();
   }
