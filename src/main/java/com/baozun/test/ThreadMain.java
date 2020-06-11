@@ -70,7 +70,7 @@ public class ThreadMain {
     lock.lock();
     try {很久很久骨結核骨結核共和國
       System.out.println("开启锁");
-    }catch (Exception e){
+    }catch (Exception e){fsdfsdfds
 
     }finally {
       System.out.println("关闭锁");
