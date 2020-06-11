@@ -59,7 +59,7 @@ public class ThreadMain {
       }
       System.out.println();
     }*/
-  /*  HashSet<Double> set = new HashSet<>();
+  /*  HashSet<Double> set = new HashSet<>() ;
     while(set.size()<10){
       set.add(Math.random()*10);
     }
