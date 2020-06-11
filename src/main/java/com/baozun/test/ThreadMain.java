@@ -63,6 +63,7 @@ public class ThreadMain {
     while(set.size()<10){
       set.add(Math.random()*10);
     }
+    cdsfcsdfvdsgfvdsgds
     for (Double dos:set) {
       System.out.println(dos);
     }*/
