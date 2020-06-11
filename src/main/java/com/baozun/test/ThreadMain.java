@@ -45,7 +45,7 @@ public class ThreadMain {
         System.out.println("i=" + i + ",j=" + j);
         if (j == 5) {
           break ok;
-        }
+        }給個好價格
 
       }
     }   dg
