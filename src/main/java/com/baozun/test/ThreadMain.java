@@ -48,7 +48,7 @@ public class ThreadMain {
         }
 
       }
-    }
+    }   dg
     SingeltonP singeltonP = new SingeltonP();
     SingeltonP.getStr();*/
 
