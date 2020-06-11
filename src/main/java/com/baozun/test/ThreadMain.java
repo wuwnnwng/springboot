@@ -68,7 +68,7 @@ public class ThreadMain {
     }*/
  /*   Lock lock = new ReentrantLock();
     lock.lock();
-    try {
+    try {很久很久骨結核骨結核共和國
       System.out.println("开启锁");
     }catch (Exception e){
 
