@@ -74,7 +74,7 @@ public class ThreadMain {
 
     }finally {
       System.out.println("关闭锁");
-      lock.unlock();jhggjghjghjghjghjghjhgjhgjhg
+      lock.unlock();
     }*/
 
   }
